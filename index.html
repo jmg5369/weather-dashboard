@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header>
+        <h1>Weather Application</h1>
+    </header>
+
+<aside>
+    
+    
+        <div id="search-box">
+            <label for="city">City: </label>
+            <input id="city" name="city"/>
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id ="searched-cities">
+            <ul id="city-list">
+            </ul> 
+        </div>
+</aside>
+
+<main>
+    <div id="weather-display"></div>
+     <!-- Dynamically populated weather data -->
+
+     <div class="today-weather">
+        <p>City Name: <span id="cityName"></span></p>
+        <p>Date: <span id="currentDate"></span></p>
+        <img alt="weather icon" id="icon">
+        <p>Temp: <span id="temp"></span></p>
+        <p>Humidity: <span id="humidity"></span></p>
+        <p>UVI: <span id="uvi"></span></p>
+        <p>Wind Speed: <span id="windSpeed"></span></p>
+    </div>
+    
+    <div class="forecast">
+        <div class="future-weather">
+            <p>Date: <span class="futureDate"></span></p>
+            <img alt="weather icon" class="icon">
+            <p>Temp: <span class="temp"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+            <p>Wind Speed: <span class="windSpeed"></span></p>
+        </div>
+        <div class="future-weather">
+            <p>Date: <span class="futureDate"></span></p>
+            <img alt="weather icon" class="icon">
+            <p>Temp: <span class="temp"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+            <p>Wind Speed: <span class="windSpeed"></span></p>
+        </div>
+        <div class="future-weather">
+            <p>Date: <span class="futureDate"></span></p>
+            <img alt="weather icon" class="icon">
+            <p>Temp: <span class="temp"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+            <p>Wind Speed: <span class="windSpeed"></span></p>
+        </div>
+        <div class="future-weather">
+            <p>Date: <span class="futureDate"></span></p>
+            <img alt="weather icon" class="icon">
+            <p>Temp: <span class="temp"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+            <p>Wind Speed: <span class="windSpeed"></span></p>
+        </div>
+        <div class="future-weather">
+            <p>Date: <span class="futureDate"></span></p>
+            <img alt="weather icon" class="icon">
+            <p>Temp: <span class="temp"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+            <p>Wind Speed: <span class="windSpeed"></span></p>
+        </div>
+    </div>
+
+
+    </main>
+    <script src="./sctipt.js"></script>
+    
+</body>
+</html>

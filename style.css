@@ -1,0 +1,29 @@
+.today-weather {
+    display: block;
+    font-size: medium;
+    background-color: bisque;
+    justify-content: center;
+    border-width: 10px;
+}
+
+#search-box {
+    display: flex;
+    background-color: blueviolet;
+
+}
+
+#searched-cities {
+    background-color: brown;
+
+
+}
+
+.forecast {
+    display: block;
+    background-color: cadetblue;
+
+}
+
+.future_weather {
+
+}
