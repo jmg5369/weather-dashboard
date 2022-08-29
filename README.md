@@ -13,9 +13,8 @@ This is an easy to use weather dashboard that will display the current and upcom
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
-- [Features](#features)
+- [Links](#links)
 - [Examples/Tests](#examples)
 
 ## Installation
@@ -30,9 +29,23 @@ This is an easy to use weather dashboard that will display the current and upcom
 
 - Alternatively, you can navigate to the cloned down repository, and run "node index.js" to launch the application.
 
-Links:
+## License
+
++ MIT
+
+
+## Links
+
 * [Deployed Live](https://jmg5369.github.io/weather-dashboard/)
 * [github](https://github.com/jmg5369/weather-dashboard)
+
+
+## Examples
+
+Screenshots:
+
+Desktop:
+![Desktop view of application](./Assets/Screen%20Shot%202022-08-29%20at%2009.51.04%20AM.png)
 
 
 Built By:
